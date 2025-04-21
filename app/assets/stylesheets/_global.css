@@ -1,0 +1,12 @@
+h1, h2, h3 {
+    font-family: 'playfair-display';
+}
+
+@layer base {
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+  }
