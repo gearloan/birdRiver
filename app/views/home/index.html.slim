@@ -1,16 +1,19 @@
+.curtain.w-screen.h-screen.bg-orange-50.absolute.z-4
+
+
 section.hero.w-screen.h-screen.bg-cover.bg-center.relative
   = link_to image_tag('br-logo.png', class: 'w-30 p-5'), root_path
   
-  nav
-    ul 
-      li Reservations
+  nav.absolute.right-10.top-10.text-white.text-right
+    ul.space-y-4.uppercase.tracking-wider
       li The House 
       li The Location
       li Contact
+      li.bg-blue-500.hover:bg-blue-700.text-white.font-bold.py-2.px-4.rounded.-mr-4 Reservations
 
 
   .title.absolute.inset-x-0.bottom-0 
-    = image_tag "#{asset_url 'bird-rivahh.svg'}", class: '-mb-1'
+    = image_tag "#{asset_url 'bird-rivahh.svg'}", class: '-mb-1, opacity-0', id: 'hero-title'
 section.intro.w-screen.h-screen
   
 

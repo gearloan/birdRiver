@@ -1,3 +1,11 @@
 .hero {
     background-image: url('hero-bg.jpg');
 }
+.curtain {
+    animation: fade-out 2.5s forwards;
+    animation-delay: .5s;
+}
+#hero-title {
+    animation: fade-in 2s forwards;
+    animation-delay: 1s;
+}
