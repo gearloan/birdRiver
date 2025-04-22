@@ -1,6 +1,22 @@
 .hero {
     background-image: url('hero-bg.jpg');
 }
+.read-more::after {
+    background-image: url('read-more-arrow.jpg');
+    content: "";
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    display: inline-block;
+}
+
+.home-side-img {
+    background-image: url('home-house-1.jpg');
+}
+
+/* animation trigger classes */
 .curtain {
     animation: fade-out 2.5s forwards;
     animation-delay: .5s;
