@@ -19,11 +19,19 @@
         z-index: 0;
     }
 }
-@keyframes slide-down {
+@keyframes slide-in {
     from {
-        top: -100%;
+        bottom: -100px;
     }
     to {
         top: 0;
+    }
+}
+@keyframes slide-out {
+    from {
+        top: 0%;
+    }
+    to {
+        top: -100%;
     }
 }

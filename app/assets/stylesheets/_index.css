@@ -18,10 +18,14 @@
 
 /* animation trigger classes */
 .curtain {
-    animation: fade-out 2.5s forwards;
+    animation: slide-out 1s forwards;
+    animation-delay: 1.25s;
+}
+.curtain img {
+    animation: fade-out 1s forwards;
     animation-delay: .5s;
 }
 #hero-title {
     animation: fade-in 2s forwards;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
 }

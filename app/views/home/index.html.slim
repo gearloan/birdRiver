@@ -1,5 +1,5 @@
-.curtain.w-screen.h-screen.bg-orange-50.absolute.z-4
-
+.curtain.w-screen.h-screen.bg-orange-50.absolute.z-4.flex.items-center.justify-center.will-change-auto
+  =image_tag "#{asset_url 'logo-dark.png'}", class: 'w-50 will-change-auto'
 
 section.hero.w-screen.h-screen.bg-cover.bg-center.relative
   = link_to image_tag('br-logo.png', class: 'w-30 p-5'), root_path
@@ -10,8 +10,8 @@ section.hero.w-screen.h-screen.bg-cover.bg-center.relative
       li The Location
       li Contact
       li.bg-blue-500.hover:bg-blue-700.text-white.font-bold.py-2.px-4.rounded.-mr-4 Reservations
-  .title.absolute.inset-x-0.bottom-0 
-    = image_tag "#{asset_url 'bird-rivahh.svg'}", class: '-mb-1, opacity-0', id: 'hero-title'
+  .title.absolute.inset-x-0.bottom-0
+    = image_tag "#{asset_url 'bird-rivahh.svg'}", class: 'will-change-auto -mb-1 opacity-0', id: 'hero-title'
 
 section.intro.w-screen.p-6.relative.my-20
   .text.w-100.m-auto.relative.left-5
