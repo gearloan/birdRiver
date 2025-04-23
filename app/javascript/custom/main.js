@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrollToPlugin);
-gsap.registerPlugin(SplitText);
-gsap.registerPlugin(ScrollSmoother);
+//gsap.registerPlugin(SplitText);
+//gsap.registerPlugin(ScrollSmoother);
 
 const stage = document.querySelector('.stage');
 const slides = document.querySelectorAll(".slide");
